@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "hooksHuatree": ["./packages/hooks/src/index.ts"],
+      "hooks-huatree": ["./packages/hooks/src/index.ts"],
+      "hooksHuatree/lib/*": ["./packages/hooks/src/*"],
+      "hooks-huatree/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
