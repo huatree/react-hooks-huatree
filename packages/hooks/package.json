@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/hooks.js",
+  "unpkg": "dist/hooks.min.js",
   "scripts": {
     "build": "gulp && webpack-cli"
   },
