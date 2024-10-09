@@ -7,7 +7,7 @@
   "types": "./lib/index.d.ts",
   "unpkg": "dist/hooks.js",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp && webpack-cli"
   },
   "keywords": [
     "react",

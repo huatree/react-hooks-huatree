@@ -431,3 +431,8 @@ $RECYCLE.BIN/
 pnpm-lock.yaml
 .umi
 .umi-production
+dist
+es
+lib
+metadata.json
+packages/hooks/README.md
