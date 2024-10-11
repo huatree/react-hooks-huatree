@@ -1,8 +1,8 @@
 ---
-title: 首页
 hero:
+  title: react-hooks-huatree
   image: /logo.png
-  description: React 业务 Hooks
+  desc: React 业务 Hooks
   actions:
     - text: 指南
       link: /guide
