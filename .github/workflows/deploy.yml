@@ -28,7 +28,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
-          repository-name: huatree/react-hooks-huatree
           BRANCH: gh-pages
           FOLDER: dist
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

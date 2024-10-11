@@ -1,5 +1,5 @@
 {
-  "name": "hooks",
+  "name": "react-hooks-huatree",
   "version": "0.0.1",
   "description": "React 业务 Hooks",
   "main": "./lib/index.js",

@@ -1,8 +1,7 @@
 import { menus } from './hooks';
 
-const packages = require('../packages/hooks/package.json');
-
 export default {
+  publicPath: '/react-hooks-huatree/',
   exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
@@ -27,7 +26,8 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    hooksHuatree: process.cwd() + '/packages/hooks/src/index.ts',
+    hooksHuatree: `${process.cwd()}/packages/hooks/src/index.ts`,
+    'hooks-huatree': `${process.cwd()}/packages/hooks/src/index.ts`,
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -42,6 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/huatree/react-hooks-huatree' },
   ],
   menus: {
     '/': [
