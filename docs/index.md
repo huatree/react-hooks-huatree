@@ -1,7 +1,7 @@
 ---
 hero:
   title: react-hooks-huatree
-  image: /logo.png
+  image: /react-hooks-huatree/logo.png
   desc: React 业务 Hooks
   actions:
     - text: 指南

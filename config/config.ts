@@ -20,7 +20,7 @@ export default {
   ],
   mode: 'site',
   title: '前端守夜人',
-  favicon: '/react-hooks-huatree/avatar.png',
+  favicon: '/react-hooks-huatree/favicon.png',
   logo: '/react-hooks-huatree/logo.png',
   dynamicImport: {},
   manifest: {},
