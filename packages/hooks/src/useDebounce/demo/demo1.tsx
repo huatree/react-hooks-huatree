@@ -3,8 +3,8 @@
  * desc: DebouncedValue 只会在输入结束 500ms 后变化。
  */
 
-import React, { useState } from 'react';
 import { useDebounce } from 'hooks-huatree';
+import React, { useState } from 'react';
 
 export default () => {
   const [value, setValue] = useState<string>();
