@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useToggle } from 'hooksHuatree';
+import { useToggle } from 'hooks-huatree';
 
 export default () => {
   const [state, { toggle, setLeft, setRight }] = useToggle();

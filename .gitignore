@@ -237,7 +237,7 @@ dist
 *testsdir
 *testsfile
 *testsfiles
-*test
+# *test
 *testdir
 *testfile
 *testfiles

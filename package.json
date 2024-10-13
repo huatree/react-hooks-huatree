@@ -17,7 +17,8 @@
     "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
     "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
     "h-lint-scan": "h-lint scan",
-    "h-lint-fix": "h-lint fix"
+    "h-lint-fix": "h-lint fix",
+    "lint:import": "eslint --fix --ext .ts packages/"
   },
   "keywords": [
     "react",
@@ -57,8 +58,9 @@
     "cross-env": "^7.0.3",
     "del": "^5.1.0",
     "dumi": "^1.1.48",
-    "eslint": "^7.2.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.0.1",
     "gray-matter": "^4.0.3",
@@ -83,7 +85,7 @@
     "surge": "^0.21.3",
     "ts-jest": "^29.0.5",
     "tslib": "^2.4.1",
-    "typescript": "^5.1.3",
+    "typescript": "~4.1.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.2.2"
